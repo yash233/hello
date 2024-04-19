@@ -1,0 +1,41 @@
+#about {
+    padding: 100px 0;
+  }
+#about h2 {
+    font-weight: bold;
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+  }
+#about .about-text li {
+    padding-left: var(--icon-space);
+    margin-bottom: 6px;
+    margin-left: 12px;
+    list-style: none;
+    padding: 0;
+    font-size: small;
+    text-align: left !important ;
+  }
+#about .about-text li:before {
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+    content: "\f00c";
+    font-family: FontAwesome;
+    color: #D5B4B4;
+    display: inline-block;
+    font-size: 11px;
+    padding-right: 8px;
+  }
+  #about img {
+    width: 520px;
+    margin-top: 10px;
+    background: #867070;
+    border-right: 0;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+  }
+  #about p {
+    line-height: 24px;
+    margin: 30px 0;
+  }
